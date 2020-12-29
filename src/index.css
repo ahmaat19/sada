@@ -10,7 +10,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* background-color: #753f290e; */
+  background-color: #753f2900;
   height: 300vh;
 }
 header nav {
@@ -63,6 +63,10 @@ header.sticky nav {
 }
 
 /* ------------------ service ------------------- */
+#service {
+  color: #753e29;
+  padding-bottom: 15px;
+}
 #service .card {
   transition: 0.5s ease-in-out;
 }
@@ -75,4 +79,29 @@ header.sticky nav {
 /* ------------------ menu ------------------- */
 .bg-fluid {
   background: #753e29;
+}
+
+/* ------------------ menu ------------------- */
+#menu {
+  color: #753e29;
+}
+#menu .card {
+  transition: 0.5s ease-in-out;
+}
+#menu .card:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------ recipes ------------------- */
+#recipes {
+  color: #fff;
+}
+#recipes .card {
+  transition: 0.5s ease-in-out;
+}
+#recipes .card:hover {
+  transform: scale(1.05);
+}
+.right {
+  right: 0;
 }

@@ -46,27 +46,14 @@ const Header = () => {
                   Menu
                 </a>
               </li>
+
               <li className='nav-item'>
                 <a
                   className='nav-link active'
                   aria-current='page'
-                  href='#herald'
+                  href='#recipes'
                 >
-                  Herald
-                </a>
-              </li>
-              <li className='nav-item'>
-                <a className='nav-link active' aria-current='page' href='#shop'>
-                  Shop
-                </a>
-              </li>
-              <li className='nav-item'>
-                <a
-                  className='nav-link active'
-                  aria-current='page'
-                  href='#gallery'
-                >
-                  Gallery
+                  Recipes
                 </a>
               </li>
               <li className='nav-item'>
