@@ -92,8 +92,8 @@ const Hours = () => {
             Are You Ready To Order?
           </h1>
           <div className='col-md-5 mx-auto text-center'>
-            <p>Some days you make the coffee some days the coffee makes you.</p>
-            <pre>Find your favorite coffee</pre>
+            <pre>Good Friends, Good Food, Good Time.</pre>
+
             <address>
               <i className='fa fa-phone'></i>
               <a href='tel:+252619777768'> +252 61 977 7768</a> <br />
