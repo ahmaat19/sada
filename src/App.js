@@ -1,3 +1,5 @@
+import MessengerCustomerChat from 'react-messenger-customer-chat'
+
 import Service from './components/Service'
 import Header from './components/Header'
 import SpecialOffer from './components/SpecialOffer'
@@ -14,6 +16,12 @@ function App() {
       <Offer />
       <Menu />
       <Hours />
+      <div className='container'>
+        <MessengerCustomerChat
+          pageId='124009027931044'
+          appId='742193349728923'
+        />
+      </div>
     </>
   )
 }
