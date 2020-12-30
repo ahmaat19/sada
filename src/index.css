@@ -82,6 +82,17 @@ header.sticky nav {
 }
 
 /* ------------------ menu ------------------- */
+#offer {
+  color: #753e29;
+}
+#offer .card {
+  transition: 0.5s ease-in-out;
+}
+#offer .card:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------ menu ------------------- */
 #menu {
   color: #753e29;
 }
@@ -91,17 +102,35 @@ header.sticky nav {
 #menu .card:hover {
   transform: scale(1.05);
 }
-
-/* ------------------ recipes ------------------- */
-#recipes {
-  color: #fff;
+#menu .card img {
+  max-width: 80px;
 }
-#recipes .card {
+#menu table {
   transition: 0.5s ease-in-out;
 }
-#recipes .card:hover {
+#menu table:hover {
   transform: scale(1.05);
 }
-.right {
-  right: 0;
+
+/* ------------------ recipes ------------------- */
+#contact {
+  color: #fff;
+  background: url(./images/bg-hours.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: #753e29;
+}
+#contact a {
+  text-decoration: none;
+  color: #fff;
+}
+.social-links i {
+  transition: 0.5s ease-in-out;
+}
+.social-links i:hover {
+  transform: rotate(360deg);
+}
+address {
+  line-height: 2;
 }

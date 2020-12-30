@@ -21,35 +21,35 @@ const Service = () => {
         </p>
       </div>
 
-      <div class='row text-center'>
-        <div class='col-md-4'>
-          <div class='card bg-transparent border-0'>
-            <img src={banner1} class='card-img-top rounded' alt='...' />
-            <div class='card-body'>
-              <h5 class='card-title section-title'>Barbeque</h5>
-              <p class='card-text'>
+      <div className='row text-center'>
+        <div className='col-md-4'>
+          <div className='card bg-transparent border-0'>
+            <img src={banner1} className='card-img-top rounded' alt='...' />
+            <div className='card-body'>
+              <h5 className='card-title section-title'>Barbeque</h5>
+              <p className='card-text'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
-          <div class='card bg-transparent border-0'>
-            <img src={banner2} class='card-img-top rounded' alt='...' />
-            <div class='card-body'>
-              <h5 class='card-title section-title'>Bon Appetit</h5>
-              <p class='card-text'>
+        <div className='col-md-4'>
+          <div className='card bg-transparent border-0'>
+            <img src={banner2} className='card-img-top rounded' alt='...' />
+            <div className='card-body'>
+              <h5 className='card-title section-title'>Bon Appetit</h5>
+              <p className='card-text'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
-          <div class='card bg-transparent border-0'>
-            <img src={banner3} class='card-img-top rounded' alt='...' />
-            <div class='card-body'>
-              <h5 class='card-title section-title'>Vegetables</h5>
-              <p class='card-text'>
+        <div className='col-md-4'>
+          <div className='card bg-transparent border-0'>
+            <img src={banner3} className='card-img-top rounded' alt='...' />
+            <div className='card-body'>
+              <h5 className='card-title section-title'>Vegetables</h5>
+              <p className='card-text'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
             </div>

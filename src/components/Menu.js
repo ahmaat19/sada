@@ -1,124 +1,111 @@
 import title from '../images/title-separator.png'
-import offer1 from '../images/offer1.jpg'
-import offer2 from '../images/offer2.jpg'
-import offer3 from '../images/offer3.jpg'
-import offer4 from '../images/offer4.jpg'
-import offer5 from '../images/offer5.jpg'
-import offer6 from '../images/offer6.jpg'
+import pizza from '../images/pizza.png'
+import burgers from '../images/burgers.png'
+import drinks from '../images/drinks.png'
+import lunch from '../images/lunch.png'
+import snack from '../images/snacks.PNG'
+import Pizza from './Pizza'
+import Drinks from './Drinks'
+import Burgers from './Burgers'
+import Lunch from './Lunch'
+import Snacks from './Snacks'
+import ourmenu from '../images/sada-menu.jpg'
 
 const Menu = () => {
   return (
-    <div
-      className='container py-5'
-      id='menu'
-      data-aos='fade-right'
-      data-aos-duration='2000'
-    >
-      <div className='text-center pt-5 '>
-        <h2 className='display-5 section-title '>The Best From Our Menu</h2>
-        <img src={title} alt='title separator' className='img-fluid' />
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-        </p>
-      </div>
+    <div className='container-fluid bg-fluid '>
+      <div
+        className='container py-5'
+        id='menu'
+        data-aos='fade-right'
+        data-aos-duration='2000'
+      >
+        <div className='text-center pt-5 text-light'>
+          <h2 className='display-5 section-title text-light'>MENU</h2>
+          {/* <img src={title} alt='title separator' className='img-fluid' /> */}
+          <a
+            href={ourmenu}
+            target='blank'
+            className='btn btn-outline-light mb-3'
+          >
+            <i className='fa fa-download'></i> Download Our Menu
+          </a>
+          <p>Just Choose From The Best</p>
+        </div>
 
-      <div className='row'>
-        <div className='col-md-4'>
-          <div class='card text-center bg-transparent border-0'>
-            <img
-              src={offer1}
-              class='card-img-top w-50 mx-auto'
-              alt='standard'
-            />
-            <div class='card-body'>
-              <h5 class='card-title fs-1 fw-bold'> $5 </h5>
-              <h5 className='fw-light fs-1'>Standard</h5>
-              <p class='card-text fs-light'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+        <div className='row text-light'>
+          <div className='col-md-2  mx-auto'>
+            <div className='card bg-transparent border-0'>
+              <img
+                src={pizza}
+                className='card-img-top bg-light rounded-pill w-75 p-3 mx-auto'
+                alt='pizza'
+              />
+              <div className='card-body'>
+                <h5 className='card-title text-center'>PIZZA</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className='col-md-2  mx-auto'>
+            <div className='card bg-transparent border-0'>
+              <img
+                src={burgers}
+                className='card-img-top bg-light rounded-pill w-75 p-3 mx-auto'
+                alt='burgers'
+              />
+              <div className='card-body'>
+                <h5 className='card-title text-center'>BURGERS</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className='col-md-2  mx-auto'>
+            <div className='card bg-transparent border-0'>
+              <img
+                src={lunch}
+                className='card-img-top bg-light rounded-pill w-75 p-3 mx-auto'
+                alt='lunch'
+              />
+              <div className='card-body'>
+                <h5 className='card-title text-center'>LUNCH</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className='col-md-2  mx-auto'>
+            <div className='card bg-transparent border-0'>
+              <img
+                src={drinks}
+                className='card-img-top bg-light rounded-pill w-75 p-3 mx-auto'
+                alt='drinks'
+              />
+              <div className='card-body'>
+                <h5 className='card-title text-center'>DRINKS</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className='col-md-2  mx-auto'>
+            <div className='card bg-transparent border-0'>
+              <img
+                src={snack}
+                className='card-img-top bg-light rounded-pill w-75  p-3 mx-auto'
+                alt='snack'
+              />
+              <div className='card-body'>
+                <h5 className='card-title text-center'>SNACK & DRINKS</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div className='col-md-4'>
-          <div class='card text-center bg-transparent border-0'>
-            <img
-              src={offer2}
-              class='card-img-top w-50 mx-auto'
-              alt='standard'
-            />
-            <div class='card-body'>
-              <h5 class='card-title fs-1 fw-bold'> $2 </h5>
-              <h5 className='fw-light fs-1'>Standard</h5>
-              <p class='card-text fs-light'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className='col-md-4'>
-          <div class='card text-center bg-transparent border-0'>
-            <img
-              src={offer3}
-              class='card-img-top w-50 mx-auto'
-              alt='standard'
-            />
-            <div class='card-body'>
-              <h5 class='card-title fs-1 fw-bold'> $6 </h5>
-              <h5 className='fw-light fs-1'>Standard</h5>
-              <p class='card-text fs-light'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className='col-md-4'>
-          <div class='card text-center bg-transparent border-0'>
-            <img
-              src={offer4}
-              class='card-img-top w-50 mx-auto'
-              alt='standard'
-            />
-            <div class='card-body'>
-              <h5 class='card-title fs-1 fw-bold'> $1 </h5>
-              <h5 className='fw-light fs-1'>Standard</h5>
-              <p class='card-text fs-light'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className='col-md-4'>
-          <div class='card text-center bg-transparent border-0'>
-            <img
-              src={offer5}
-              class='card-img-top w-50 mx-auto'
-              alt='standard'
-            />
-            <div class='card-body'>
-              <h5 class='card-title fs-1 fw-bold'> $12 </h5>
-              <h5 className='fw-light fs-1'>Standard</h5>
-              <p class='card-text fs-light'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className='col-md-4'>
-          <div class='card text-center bg-transparent border-0'>
-            <img
-              src={offer6}
-              class='card-img-top w-50 mx-auto'
-              alt='standard'
-            />
-            <div class='card-body'>
-              <h5 class='card-title fs-1 fw-bold'> $8 </h5>
-              <h5 className='fw-light fs-1'>Standard</h5>
-              <p class='card-text fs-light'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
+
+        <div className='row gy-3'>
+          <Pizza />
+          <Burgers />
+          <Lunch />
+          <Drinks />
+          <Snacks />
         </div>
       </div>
     </div>

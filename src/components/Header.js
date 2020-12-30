@@ -42,18 +42,17 @@ const Header = () => {
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link active' aria-current='page' href='#menu'>
-                  Menu
-                </a>
-              </li>
-
-              <li className='nav-item'>
                 <a
                   className='nav-link active'
                   aria-current='page'
-                  href='#recipes'
+                  href='#specialOffer'
                 >
-                  Recipes
+                  Offer
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link active' aria-current='page' href='#menu'>
+                  Menu
                 </a>
               </li>
               <li className='nav-item'>
@@ -72,33 +71,33 @@ const Header = () => {
 
       <div
         id='carouselExampleCaptions'
-        class='carousel slide'
+        className='carousel slide'
         data-bs-ride='carousel'
       >
-        <ol class='carousel-indicators'>
+        <ol className='carousel-indicators'>
           <li
             data-bs-target='#carouselExampleCaptions'
             data-bs-slide-to='0'
-            class='active'
+            className='active'
           ></li>
           <li
             data-bs-target='#carouselExampleCaptions'
             data-bs-slide-to='1'
           ></li>
         </ol>
-        <div class='carousel-inner'>
-          <div class='carousel-item active'>
-            <img src={slide2} class='d-block w-100' alt='...' />
-            <div class='carousel-caption d-none d-md-block'>
+        <div className='carousel-inner'>
+          <div className='carousel-item active'>
+            <img src={slide2} className='d-block w-100' alt='...' />
+            <div className='carousel-caption d-none d-md-block'>
               <h5 className='display-1 fw-bold'>$9.90</h5>
               <p className='display-4 fw-bold'>
                 Food That Fits Your Lifestyle.
               </p>
             </div>
           </div>
-          <div class='carousel-item'>
-            <img src={slide1} class='d-block w-100' alt='...' />
-            <div class='carousel-caption d-none d-md-block'>
+          <div className='carousel-item'>
+            <img src={slide1} className='d-block w-100' alt='...' />
+            <div className='carousel-caption d-none d-md-block'>
               <h5 className='display-1 fw-bold'>$9.90</h5>
               <p className='display-4 fw-bold'>
                 Food That Fits Your Lifestyle.
@@ -107,22 +106,28 @@ const Header = () => {
           </div>
         </div>
         <a
-          class='carousel-control-prev'
+          className='carousel-control-prev'
           href='#carouselExampleCaptions'
           role='button'
           data-bs-slide='prev'
         >
-          <span class='carousel-control-prev-icon' aria-hidden='true'></span>
-          <span class='visually-hidden'>Previous</span>
+          <span
+            className='carousel-control-prev-icon'
+            aria-hidden='true'
+          ></span>
+          <span className='visually-hidden'>Previous</span>
         </a>
         <a
-          class='carousel-control-next'
+          className='carousel-control-next'
           href='#carouselExampleCaptions'
           role='button'
           data-bs-slide='next'
         >
-          <span class='carousel-control-next-icon' aria-hidden='true'></span>
-          <span class='visually-hidden'>Next</span>
+          <span
+            className='carousel-control-next-icon'
+            aria-hidden='true'
+          ></span>
+          <span className='visually-hidden'>Next</span>
         </a>
       </div>
     </header>
