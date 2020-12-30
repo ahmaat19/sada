@@ -1,11 +1,6 @@
 const Hours = () => {
   return (
-    <div
-      className='container-fluid py-5'
-      id='contact'
-      data-aos='fade-left'
-      data-aos-duration='2000'
-    >
+    <div className='container-fluid py-5' id='contact'>
       <div className='text-center pt-5'>
         <h2 className='display-5 section-title text-light'>WORKING HOURS</h2>
 
